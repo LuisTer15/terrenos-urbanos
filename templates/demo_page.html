@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Terrenos Urbanos</title>
+
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })
+       (window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-103962786-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Raleway:400,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/demo_page.js"></script>
+  </head>
+  <body id="demo_body">
+    <div class="container-fluid">
+    
+     <div id="home_demo" class="row home_demo">
+
+      <nav class="navbar">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand" id="nav_logo"><img id="logo" src="/static/images/icono.png"></a>
+        </div>
+      </nav>
+     
+      <div class="row demo_form_box">
+
+       <div class="col-md-6 demo_form_text">
+          <h3 class="demo_form_text">Pruébela enviando el formulario o
+          <br>escribe a contacto@terrenosurbanos.co 
+          </h3>
+          <h2 class="demo_form_text_header">UNA PODEROSA HERRAMIENTA QUE ACELERA SUS PROCESOS</h2>
+          <p id="hide_text">Utilize el poder de los sistemas de información geográfica (GIS) para el análisis de datos enfocado a la toma de decisiones de manera rápida, segura y confiable en su organización.</p>
+       </div>
+
+       <div class="col-md-6" id="user_form">
+          <form method="post">
+            <div>
+               <label>Nombre</label>
+               <br>
+               
+             <input type="text" name="nombre" value="{{ name }}" class="demo_form">
+            </div>
+            
+            <div>
+                <label>Organización</label>
+                <br>
+              <input type="text" name="organizacion" value="{{ org }}" class="demo_form">
+            </div>
+
+            <div>
+               <label>Correo Electrónico</label>
+               <br>
+             <input type="e-mail" name="correo" value="{{ mail }}" class="demo_form">
+            </div>
+            
+            <div>
+                <label>Telefóno</label>
+                <br>
+              <input type="number" name="telefono" value="{{ tel }}" class="demo_form">
+            </div>
+
+            <p>Al enviar la información aceptas los <a href="/termsandprivacy/">Términos y condiciones de uso, y la Política de privacidad</a> de este sitio web.</p>
+
+            <div>
+                <a href=""><input class="button_user_demo" type="submit" value="Enviar Información"></a>
+            </div>    
+          </form>
+       </div>
+
+      </div>
+
+     </div>
+
+    </div>
+  </body>
+</html>

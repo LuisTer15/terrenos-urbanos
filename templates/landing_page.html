@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrenos Urbanos</title>
+    
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })
+       (window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-103962786-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+
+    <link rel="shortcut icon" href="http://www.terrenosurbanos.co/static/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800|Raleway:400,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+ </head>
+
+ <body>
+   <div class="container-fluid">
+
+    <div class="row header" id="nav">
+
+       <nav class="navbar">
+          <div class="navbar-header">
+                <button id="collapse_btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" id="icon_bar"></span>
+                    <span class="icon-bar" id="icon_bar"></span>
+                    <span class="icon-bar" id="icon_bar"></span>
+                </button>
+                <a class="navbar-brand" id="nav_logo" href="#nav"><img id="logo" src="/static/images/icono.png"></a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><div type="button" class="button_login navbar-btn"><a href="/login">Ingresar</a></div></li>
+                <li><div type="button" class="button_demo navbar-btn"><a href="/demo">Solicitar una prueba gratuita</a></div></li>
+              </ul>
+          </div>
+       </nav>
+
+    </div>
+
+    <div class="row home" id="home">
+
+       <div class="col-md-12 texthead">
+         
+          <h2 class="text_header">Terrenos urbanos <br> para proyectos inmobiliarios </h2>
+          <br>
+          <p class="text_header2">Busque, compare y gestione el mejor terreno para su proyecto de forma rápida y confiable</p>
+          <br>
+          <a href="#video">
+          <button class="button_video">Ver cómo funciona</button></a>
+    
+       <div class="col-md-12" id="video">
+          <iframe class="video" src="https://www.youtube.com/embed/TIHr3pcGS4c" frameborder="0" allowfullscreen></iframe>
+       </div>
+
+       <div id="navbar_changer"> 
+       </div>
+
+       </div>
+    </div>
+
+    <div class="row features" id="features">
+
+      <div class="col-md-9 features_wrapper">
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature1.png">
+            </div>
+
+            <div class="features_box">
+               <h2 class="features_title">Consulta en tiempo real</h2>
+               <p class="features_text">Consulte los terrenos por medio de su dirección catastral o selecciónelos directamente desde el mapa para ver información acerca de las características existentes, la normativa aplicable según el POT y el potencial de desarrollo.</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature2.png">
+            </div>
+               <h2 class="features_title">Búsqueda avanzada</h2>
+               <p class="features_text">Realize búsquedas de terrenos según las características de su futuro proyecto inmobiliario, teniendo en cuenta área construida, área de ocupación, altura en pisos y uso del suelo. Obtenga en los resultados los terrenos más adecuado para su proyecto.</p>
+            <div class="features_box">
+               
+            </div>
+        </div>
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature3.png">
+            </div>
+
+            <div class="features_box">
+               <h2 class="features_title">Analize y compare resultados</h2>
+               <p class="features_text">Ingrese datos para el análisis de los terrenos según las necesidades de su proyecto, como el porcentaje de área vendible, el precio promedio de venta por metro cuadrado y el porcentaje del factor alfa para aplicar el método residual potencial.</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature4.png">
+            </div>
+
+            <div class="features_box">
+               <h2 class="features_title">Método residual potencial</h2>
+               <p class="features_text">Utilize el método residual potencial para determinar el precio máximo que debe pagar por el terreno ajustado a las características propias de su proyecto inmobiliario.</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature5.png">
+            </div>
+
+            <div class="features_box">
+               <h2 class="features_title">inmuebles y terrenos en venta</h2>
+               <p class="features_text">Visualize en tiempo real los inmuebles y terrenos en venta en el mapa a través del sistema de información geográfica y consulte los detalles del vendedor para iniciar un contacto.</p>
+            </div>
+        </div>
+
+        <div class="col-md-3 feature">
+            <div>
+               <img class="features_img" src="/static/images/feature6.png">
+            </div>
+
+            <div class="features_box">
+               <h2 class="features_title">Aplicación web en la nube</h2>
+               <p class="features_text">Accede a la aplicación desde cualquier dispositivo, en cualquier lugar y en cualquier momento, solo con una conexión a internet. Utilice el poder de los sistemas de información geográfica a su favor.</p>
+            </div>
+        </div>
+
+      </div>
+
+     </div>
+    
+    <footer class="row footer">  
+           <div class="col-md-4" id="footer_logo">
+                 <img src="/static/images/ICON_black_footer.png">
+           </div>
+           <div class="col-md-4">
+             <ul>
+               <li><h4 id="footer_title">Contacto</h4></li>
+               <li>Correo electrónico:</li>
+               <li>contacto@terrenosurbanos.co</li>
+               <br>
+               <li>Teléfono:</li>
+               <li>(+57) 301 2078436</li>
+               <br>
+               <li>Calle 3B # Transversal 3B-105</li>
+               <li>Barránquilla, Atlántico</li>
+               <li>COLOMBIA</li>
+             </ul>
+
+           </div>
+
+           <div class="col-md-4">
+             <ul>
+               <li><h4 id="footer_title">Acerca de nosotros</h4></li>
+               <li><a href="/termsandprivacy/">Términos y condiciones de uso</a></li>
+               <li><a href="/termsandprivacy/#privacy">Política de privacidad</a></li>
+             </ul>
+           </div>
+
+           <div class="col-md-12" id="copyright">
+             <p>Copyright © 2017 Terrenos Urbanos S.A.S. Todos los derechos reservados.</p>
+           </div>
+    </footer>
+
+   </div>
+ </body>
+</html>
