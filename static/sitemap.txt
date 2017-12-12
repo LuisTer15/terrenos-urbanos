@@ -1,3 +1,2 @@
 http://terrenosurbanos.co/
-http://terrenosurbanos.co/demo
-http://terrenosurbanos.co/login
+http://terrenosurbanos.co/register
